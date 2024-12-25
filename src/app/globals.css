@@ -19,3 +19,17 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.jellyfin-logo {
+  width: 7em;
+  height: 7em;
+}
+
+.jellyfin-loader {
+  position: absolute;
+  top: -1em;
+  left: -1em;
+  z-index: 1;
+  width: 10em;
+  height: 10em;
+}
